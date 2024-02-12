@@ -1,1 +1,44 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+header{
+    @import "./partials/header";
+}
+
+.comics-wrapper{
+    background-color: #1C1C1C;
+}
+
+.card{
+    background-color: #1C1C1C;
+    img{
+        height: 194px;
+        object-fit: cover;
+        object-position: top;
+    }
+    p{
+        font-size: .9rem;
+    }
+}
+button{
+    text-align: center;
+    border: none;
+    background-color: cornflowerblue;
+    text-transform: uppercase;
+    padding: .65rem 4rem;
+    margin-bottom: 1.25rem;
+    color: white;
+}
+.shop{
+    background-color: cornflowerblue;
+    img{
+        width: 20%;
+    }
+    p{
+        font-size: .85rem;
+    }
+}
+
+footer .upper-footer{
+    background-image: url('../assets/images/footer-bg.jpg');
+}
+@import "./partials/footer";
